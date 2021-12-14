@@ -3,8 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
 main{
-    width: 100%;
+    width: 60%;
     height: 60vh;
     display: flex;
     align-items: center;
@@ -28,6 +34,9 @@ div{
     }
     div{
         border:none;
-        border-bottom: 1px solid orange;
+        border-bottom: 3px solid orange;
+    }
+    div:hover {
+        background-color:rgb(250, 229, 229);
     }
 }
